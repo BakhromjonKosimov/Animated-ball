@@ -1,0 +1,56 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(42, 184, 184);
+    animation-name: example;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count:infinite;
+    border-radius: 100%;
+   
+}
+
+@keyframes example{
+    0%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    3%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    6%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    9%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;} 
+    12%{left: 200px; background-color:yellow; border-radius: 55%; top: 300px;}
+    15%{left: 200px; background-color:yellow; border-radius: 55%; top: 480px;}
+    18%{left: 200px; background-color:yellow; border-radius: 55%; top: 300px;}
+    21%{left: 200px; background-color:yellow; border-radius: 55%; top: 480px;}
+    24%{left: 200px; background-color:yellow; border-radius: 55%; top: 300px;}
+    27%{left: 200px; background-color:yellow; border-radius: 55%; top: 480px;} 
+    30%{left: 200px; background-color:yellow; border-radius: 55%; top: 300px;}
+    33%{left: 200px; background-color:yellow; border-radius: 55%; top: 480px;}
+    36%{left: 200px; background-color:yellow; border-radius: 55%; top: 300px;}
+    39%{left: 200px; background-color:yellow; border-radius: 55%; top: 480px;}
+    42%{left: 200px; background-color:yellow; border-radius: 55%; top: 300px;}
+    45%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;} 
+    48%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    51%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    54%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    57%{left: 200px; background-color: yellow; border-radius: 55%; top:480px;}
+    60%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    63%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;} 
+    67%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    70%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    73%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    76%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    79%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    82%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;} 
+    85%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    88%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    91%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    94%{left: 200px; background-color: yellow; border-radius: 55%; top: 480px;}
+    97%{left: 200px; background-color: yellow; border-radius: 55%; top: 300px;}
+    100%{left: 800px; background-color:yellow; border-radius: 55%; top: 0px;} 
+   
+}
+.ball{
+    width: 180px;
+    height: 175px;
+    position: relative;
+    top: -13px;
+    left: -13px;
+}
